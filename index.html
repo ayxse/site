@@ -1,1 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
 
+THIS THEME WAS MADE BY
+
+  /$$$$$$  /$$           /$$                          
+ /$$__  $$|__/          | $$                          
+| $$  \__/ /$$  /$$$$$$ | $$$$$$$   /$$$$$$   /$$$$$$ 
+| $$$$    | $$ /$$__  $$| $$__  $$ /$$__  $$ /$$__  $$
+| $$_/    | $$| $$$$$$$$| $$  \ $$| $$  \__/| $$$$$$$$
+| $$      | $$| $$_____/| $$  | $$| $$      | $$_____/
+| $$      | $$|  $$$$$$$| $$$$$$$/| $$      |  $$$$$$$
+|__/      |__/ \_______/|_______/ |__/       \_______/
+                                                                                                                                                                                                                          
+• HTTP://FIEBRE.TUMBLR.COM - @Mercedes  
+• HTTP://FIEBRETHEMES.TUMBLR.COM - *video background theme*
+                         
+                                            DON'T DELETE THE CREDITS!          ~
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+
+<meta name="color:Text" content="#ffffff" />
+<meta name="color:Title" content="#ffffff" />
+<meta name="color:Title hover" content="#ffffff" />
+<meta name="color:Links" content="#ffffff" />
+<meta name="color:Links hover" content="#ffffff" />
+<meta name="font:Title" content="courier new"/>
+<meta name="font:Body" content="baskerville"/>
+<meta name="text:body font size" content="12px"/>
+<meta name="text:title font size" content="20px"/>
+
+<meta name="if:Disable Photo Captions" content="1" />
+
+<meta name="if:Show custom link1" content="0"/>
+<meta name="if:Show custom link2" content="0"/>
+<meta name="if:Show custom link3" content="0"/> 
+<meta name="text:Custom link1" content="" />
+<meta name="text:Custom link1 title" content="link1" />
+<meta name="text:Custom link2" content="" />
+<meta name="text:Custom link2 title" content="link2" />
+<meta name="text:Custom link3" content="" />
+<meta name="text:Custom link3 title" content="link3" />
+
+
+<link rel="icon" href="{Favicon}"/> <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/> <title>{Title}{block:PostTitle}: {PostTitle}{/block:PostTitle}</title> {CustomCSS} <title>{title}{block:PostTitle}: {PostTitle}{/block:PostTitle}</title>
+<style type="text/css">
+
+iframe#tumblr_controls { right:3px !important; position: fixed !important; -webkit-transition: opacity 0.7s linear; opacity:1; -webkit-transition: all 0.8s ease-out; -moz-transition: all 0.8s ease-out; transition: all 0.8s ease-out;}
+iframe#tumblr_controls:hover{ -webkit-transition: opacity 0.7s linear; opacity: 1; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; transition: all 0.4s ease-out;} #tumblr_controls {!important; position:fixed !important;} .tumblrAutoPager_page_info, .tumblrAutoPager_page_separator {display:none;}
+
+
+body{ margin:0px; padding:0px; margin-top:0px; margin-bottom:0px; font-family: {font:body}; font-size:{text:body font size}; color:{color:text} ; background-color:#000000;  }
+
+
+a {color:{color:links}; text-decoration: none;}
+a:hover {;-webkit-transition-duration: 0.4s; color:{color:Links Hover};}
+a:active,a:focus {outline:0;}
+
+.notes {padding-left:20px; font-size:9px;}
+ol.notes { float:left; width:500px; height:300px; padding-left:5px; margin-top:10px; overflow:scroll; overflow-x:hidden; over-flow-y:scroll; list-style-type:none; font-weight:normal; font-size:9px; text-transform:none;}
+ol.notes li.note {padding-top:2px; opacity:.8; -moz-transition:0.1s ease-in; -webkit-transition:0.1s ease-in; -o-transition:0.1s ease-in; transition:0.1s ease-in;} ol.notes li.note:hover {opacity:1;} ol.notes li.note img.avatar {width:14px; height:14px;}
+
+
+.permalink {padding:2px; 
+text-align:right;  {block:permalinkpage}opacity:0;{/block:permalinkpage}
+}
+
+#titles{ font-weight:bold; text-align:left; line-height:{text:font size};}
+
+#audi{ background-color:#000; height:27px; margin-bottom:-4px; {block:ifnottwocolumns}width:220;{/block:ifnottwocolumns} {block:iftwocolumns} width:350px;{/block:iftwocolumns}}
+
+#blogtitle {margin-top:10px; margin-left:30px; color:{color:title};   width:250px;   text-align:center; font-size:{text:title font size}; font-family:{font:title};  text-transform:uppercase; text-decoration:; font-style:; } 
+
+#blogtitle a:hover {text-decoration:none;!important} 
+
+#blogtitle a {color:{color:title}; }
+
+.links1 {margin-top: -3px;  margin-left:30px; font-family:{font:body}; text-align:center; position:absolute; width:250px; z-index:99999; font-style:; text-transform:;} 
+
+
+
+.links1 a {text-decoration:none; }
+.links1 a:hover {text-decoration:underline;  color:{color:Links Hover};}
+
+
+#posts { 
+    
+    width:300px;  
+
+  position:relative; float:left; margin-top:60px; margin-left:15px; {block:PermalinkPage}  width:500px; {/block:PermalinkPage} }
+
+.post {{block:indexpage}width:250px; margin:15px; {/block:indexpage} {block:permalinkpage} padding: 20px; {/block:permalinkpage} float:left; position:relative; text-align:justify;  font-family:{font:body}; font-size: {text:font size}; color:{color:text}; }
+
+ {block:indexpage} .post .photoset iframe { width:240px;!important }  {/block:indexpage}
+
+
+
+.quote {text-align:center;} 
+
+.reblogpic {padding:5px;text-align:right;position:absolute; margin-top:0px; opacity:0; -webkit-transition-duration: 0.4s; }
+
+.pic:hover .reblogpic {opacity:1; {block:permalinkpage}opacity:0; {/block:permalinkpage} -webkit-transition-duration: 0.4s; }
+
+
+#blogtitle a {color:{color:title} }
+    
+.imgbanner {text-align:right; }   
+.imgbanner img {max-width:220px;}
+
+.description { text-align:center; font-style:italic; position:absolute; margin-top:3px; }
+    
+#chat { text-align:right; line-height: {text:body font size}; }
+#posto { position:fixed; right:40px; top:50px; }
+
+div.linki a { background-color:{color:links background}; margin-bottom:4px; text-align:right; display:block; position:relative; color:{color:links text}; font-size:10px; }
+div.linki a:hover {display:block; margin-bottom:4px; color:{color:links text hover};}
+.logon { top:25px; right:5px; position:absolute;  text-align:center; padding:2px; font-size:10px; font-style:italic;}
+
+.logon a {color:#000; }
+
+.captions { margin-top:-8px;}
+.empathy {  text-align:right; margin-top:8px; padding-bottom:5px; font-size:20px; font-weight:900; color:{color:Title};  }
+.empathy a:hover {}
+
+.liink { text-align:right; font-family:{font:title};  }
+
+.liink a { color:{color:links};}
+.liink a:hover { color:{color:links hover}; text-decoration:underline;}
+   
+
+.tumblrAutoPager_page_info, .tumblrAutoPager_page_separator {display:none;}
+#infscr-loading {display:none;}
+.navigation {display:none!important;} 
+
+</style>
+
+
+
+<script type='text/javascript' src='http://static.tumblr.com/d0qlne1/DiAl6ekb7/jquery-1.4.2.min.js'></script>
+ 
+{block:IndexPage}
+<script src="http://static.tumblr.com/twte3d7/H8Glm663z/masonry.js"></script>
+<script src="http://static.tumblr.com/twte3d7/qNulm663d/infinite.js"></script>
+ 
+<script type="text/javascript">
+$(window).load(function () {
+$('#posts').masonry(),
+$('.masonryWrap').infinitescroll({
+navSelector : "div.navigation",
+// selector for the paged navigation (it will be hidden)
+nextSelector : ".navigation a#next",
+// selector for the NEXT link (to page 2)
+itemSelector : ".post",
+// selector for all items you'll retrieve
+bufferPx : 10000,
+extraScrollPx: 10000,
+loadingImg : "http://www.freeiconsweb.com/Icons-show/loading/loading2.gif",
+loadingText : "<em></em>",
+},
+// call masonry as a callback.
+function() { $('#posts').masonry({ appendedContent: $(this) }); }
+);
+});
+</script>
+{/block:IndexPage}
+{block:indexpage}<div class="navigation">{block:Pagination}{block:NextPage}<p id="page_nav"><a style="float:right" href="{NextPage}" id="next">Older</a>{/block:NextPage}{block:PreviousPage}<a style="float:left" href="{PreviousPage}">Newer</a></p>{/block:PreviousPage}{/block:Pagination}</div>{/block:indexpage}
+
+
+
+</head>
+
+<body> 
+<!-- 
+  _             _      _                   _ 
+ | |           | |    | |                 | |
+ | | ___   ___ | | __ | |__   ___ _ __ ___| |
+ | |/ _ \ / _ \| |/ / | '_ \ / _ \ '__/ _ \ |
+ | | (_) | (_) |   <  | | | |  __/ | |  __/_|
+ |_|\___/ \___/|_|\_\ |_| |_|\___|_|  \___(_)
+                                             
+                                     
+         READ CAREFULLY:
+         
+     Replace "ID" with the actual ID of your YouTube video :
+ -->    
+
+<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+  <iframe frameborder="0" height="100%" width="100%" 
+    src="http://www.youtube.com/embed/UjlTEB63iqU?autoplay=1&controls=0&showinfo=0&autohide=1">
+  </iframe>
+</div>
+ 
+
+<!-- ENDS BACKGROUND VIDEO SCRIPT  -->
+
+
+<div id="blogtitle"> {title} </div> 
+
+<div class="links1"><a href="/">home</a> <a href="/archive">archive</a>  <a href="/ask">message</a>{Block:IfShowCustomLink1}<a href="{text:Custom Link1}">{text:Custom Link1 Title}</a>{/Block:IfShowCustomLink1} 
+{Block:IfShowCustomLink2}<a href="{text:Custom Link2}">{text:Custom Link2 Title}</a>{/Block:IfShowCustomLink2} 
+{Block:IfShowCustomLink3}<a href="{text:Custom Link3}">{text:Custom Link3 Title}</a>{/Block:IfShowCustomLink3}  <a href="http://fiebre.tumblr.com">theme</a> <div class="description"> <small>{description} </small></div> </div>
+
+<div id="contentcolumn"> <div class="masonrywrap">
+
+<div id="posts"> 
+
+{block:Posts}
+{block:Text} 
+<div class="post">
+<div id="titles">{block:Title}<big>{Title}</big>{/block:Title}</div> {Body}
+<div class="permalink"><div class="permalink"><a href="{Permalink}">{24Hour}:{Minutes}</a></div></div></div> {/block:Text}
+
+
+{block:Photo} <div class="post"><div class="pic">
+{block:IndexPage}<a href="{Permalink}">{/block:IndexPage}
+
+{block:IndexPage} <a href="{permalink}">
+
+<img src="{PhotoURL-500}" width="250" alt="{PhotoAlt}"/> {/block:IndexPage} 
+
+{block:PermalinkPage} <img src="{PhotoURL-500}"  alt="{PhotoAlt}"/> <br> {/block:PermalinkPage}
+{block:IndexPage}</a>{/block:IndexPage}{block:PermalinkPage}{LinkCloseTag}{/block:PermalinkPage}  {Block:IfNotDisablePhotoCaptions}{block:Caption} <div class="captions">{Caption}</div> {/block:Caption}{/Block:IfNotDisablePhotoCaptions} </div></div>
+{/block:Photo}
+
+{block:Photoset} <div class="post"> <div class="photoset"> {Photoset-250}</div> {Block:IfNotDisablePhotoCaptions}{block:Caption} <div class="captions">{Caption}</div> {/block:Caption}{/Block:IfNotDisablePhotoCaptions} 
+
+<div class="permalink"><a href="{Permalink}">{timeago}</a></div></div>{/block:Photoset}
+
+{block:Quote}<div class="post">  <div class="quote">" <i>{Quote}</i> " <br><br> — {Source}</div> <div class="permalink"><a href="{Permalink}">{24Hour}:{Minutes}</a></div></div>{/block:Quote}
+
+{block:Link} <div class="post"><div id="titles"><a href="{URL}">{Name}</a></div> {block:Description}{Description}{/block:Description} <div class="permalink"><a href="{Permalink}">{24Hour}:{Minutes}</a></div></div>{/block:Link}
+
+{block:Chat}<div class="post">  <div id="chat"><b>{block:Title}{Title}{/block:Title}</b><br>
+{block:Lines}{block:Label}<b>{Label}</b><br> {Line} <br><br> {/block:Label}{/block:Lines}</div> <div class="permalink"><a href="{Permalink}">{24Hour}:{Minutes}</a></div> </div>{/block:Chat}
+
+{block:Audio} <div class="post"><div id="audi">{AudioPlayerBlack}</div><div id="mumu">{block:Caption}{Caption}{/block:Caption}</div> <div class="permalink"><a href="{Permalink}">{24Hour}:{Minutes}</a></div> </div> {/block:Audio}
+
+{block:Answer} <div class="post"><big>{Question}<br>- {Asker}</big> <br> {Answer} </div>  {/block:answer}
+
+{block:PostNotes}<div class="notes"> {block:Caption} {Caption} {/block:Caption}
+{block:NoteCount}{NoteCount} notes{/block:NoteCount}
+{PostNotes} </div>{/block:PostNotes}
+
+{/block:posts} </div></div> </div>
+<div class="logon"><a href="http://fiebre.tumblr.com" title="theme by fiebre"><img src="http://static.tumblr.com/2w7y46r/wuvmba8c2/installtheme.png"></a></div>
+
+</div> <br> <br>
+</body> </html>
